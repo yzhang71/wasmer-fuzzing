@@ -1,0 +1,7 @@
+search-paths:
+  - ../service/target/wasm32-unknown-unknown/release
+
+instantiations:
+  $input:
+    arguments:
+      downstream: svc
